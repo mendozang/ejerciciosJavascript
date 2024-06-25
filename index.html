@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body class="text-center text-bg-dark">
+    <header>
+        <h1 class="display-3 m-5 text-info">Ejercicios de Práctica Javascript</h1>
+    </header>
+
+    <!-- funcion invertir cadena-->
+    <section class="border border-info mb-4" style="max-width: 80%; margin: auto;">
+        <h3 class="display-5 m-4">Invertir cadena</h3>
+        <input type="text" id="invertirCadena">
+        <div class="form-text text-bg-dark">Ingrese una cadena de texto</div>
+        <button onclick="useInvCadena()" class="btn btn-info m-3" type="submit">Enviar</button>
+        <p id="resultadoCadena" class="m-3"></p>
+    </section>
+
+    <!-- funcion determinar numeros primos-->
+    <section class="border border-info mb-4" style="max-width: 80%; margin: auto;">
+        <h3 class="display-5 m-4">Determinar si un número es primo</h3>
+        <input type="text" id="primo">
+        <div class="form-text text-bg-dark">Ingrese un número</div>
+        <button onclick="useEsPrimo()" class="btn btn-info m-3" type="submit">Enviar</button>
+        <p id="resultadoPrimo" class="m-3"></p>
+    </section>
+
+    <!-- funcion eliminar duplicados en un arreglo-->
+    <section class="border border-info mb-4" style="max-width: 80%; margin: auto;">
+        <h3 class="display-5 m-4">Eliminar duplicados en un arreglo</h3>
+        <input type="text" id="arreglo">
+        <div class="form-text text-bg-dark">Ingrese sus números separados por una coma</div>
+        <button onclick="useElimDuplicados()" class="btn btn-info m-3" type="submit">Enviar</button>
+        <p id="resultadoArreglo" class="m-3"></p>
+    </section>
+
+    <!-- funcion calcular factorial de un numero-->
+    <section class="border border-info mb-4" style="max-width: 80%; margin: auto;">
+        <h3 class="display-5 m-4">Calcular el factorial de un número</h3>
+        <input type="text" id="factorial">
+        <div class="form-text text-bg-dark">Ingrese un número</div>
+        <button onclick="useCalcFactorial()" class="btn btn-info m-3" type="submit">Enviar</button>
+        <p id="resultadoFactorial" class="m-3"></p>
+    </section>
+
+    <!-- funcion recuento de vocales-->
+    <section class="border border-info mb-4" style="max-width: 80%; margin: auto;">
+        <h3 class="display-5 m-4">Recuento de vocales</h3>
+        <input type="text" id="vocales">
+        <div class="form-text text-bg-dark">Ingrese una cadena de texto</div>
+        <button onclick="useContVocales()" class="btn btn-info m-3" type="submit">Enviar</button>
+        <p id="resultadoVocales" class="m-3"></p>
+    </section>
+
+    <!-- funcion sumar los numero de un arreglo-->
+    <section class="border border-info mb-4" style="max-width: 80%; margin: auto;">
+        <h3 class="display-5 m-4">Sumar los números de un arreglo</h3>
+        <input type="text" id="sumarArreglo">
+        <div class="form-text text-bg-dark">Ingrese sus números separados por una coma</div>
+        <button onclick="useSumArreglo()" class="btn btn-info m-3" type="submit">Enviar</button>
+        <p id="resultadoSuma" class="m-3"></p>
+    </section>
+
+    <!-- funcion encontrar el numero maximo en un arreglo-->
+     <section class="border border-info mb-4" style="max-width: 80%; margin: auto;">
+        <h3 class="display-5 m-4">Encontrar el número máximo en un arreglo</h3>
+        <input type="text" id="maximoArreglo">
+        <div class="form-text text-bg-dark">Ingrese sus números separados por una coma</div>
+        <button onclick="useMaxArreglo()" class="btn btn-info m-3" type="submit">Enviar</button>
+        <p id="resultadoMaximo" class="m-3"></p>
+     </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
